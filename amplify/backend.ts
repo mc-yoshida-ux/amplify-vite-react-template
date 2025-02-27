@@ -6,5 +6,6 @@ import { data } from './data/resource';
 defineBackend({
   auth,
   data,
-  storage
+  firstBucket,
+  secondBucket
 });
