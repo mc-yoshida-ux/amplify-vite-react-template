@@ -7,9 +7,7 @@ const client = generateClient<Schema>();
 
 function App() {
   const defaultPrefixes = [
-    'public/',
-    (identityId: string) => `protected/${identityId}/`,
-    (identityId: string) => `private/${identityId}/`,
+    'dev-bedrock-s3-us/web',
   ];
 
   return (
