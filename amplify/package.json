@@ -1,3 +1,7 @@
 {
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@aws-amplify/ui-react-storage": "^0.0.0-storage-browser-d368514-20241008194754",
+    "aws-amplify": "^6.6.4-storage-browser.4db9fef.0"
+  }
 }
